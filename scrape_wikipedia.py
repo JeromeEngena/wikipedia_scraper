@@ -30,4 +30,4 @@ for row in column_data[1:]: # start from the second row to avoid the empty list 
     df.loc[length] = individual_row_data
 
 # write the dataframe to a csv format file
-df.to_csv(r'/home/jerome/code/my_datasets/top_100_us_companies_by_revenue.csv', index=False)
+df.to_csv(r'/file_path/file_name.csv', index=False)
